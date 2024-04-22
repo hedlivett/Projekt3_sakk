@@ -1,6 +1,25 @@
-body{
+body {
     background-color: rgb(41, 39, 39);
-color: white;
+    color: white;
+}
+
+.sor {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.figura {
+    width: 33%;
+    text-align: justify;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+.kozep{
+    text-align: center;
 }
 
 /* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
