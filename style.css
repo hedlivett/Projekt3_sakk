@@ -23,3 +23,12 @@ body {
 }
 
 /* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
+/* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
+
+.carousel-item{
+height: 100vh;
+min-height: 300px;
+background: no-repeat scroll center scroll;
+-webkit-backgorund-size: cover;
+background-size: cover;
+}
