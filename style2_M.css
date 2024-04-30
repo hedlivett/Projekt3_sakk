@@ -21,17 +21,11 @@ body {
     text-align: center;
 }
 
-/* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
-/* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
+.sakk{
 
-.carousel-item{
-height: 100vh;
-min-height: 300px;
-background: no-repeat scroll center scroll;
--webkit-backgorund-size: cover;
-background-size: cover;
 }
 
-.dfaskjdfasjdasjdasj{
-    color: aliceblue;
+h1{
+    text-align: center;
 }
+/* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
