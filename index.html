@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+  <div  id="teteje"> </div> 
   <nav class="navbar navbar-expand-sm bg-light ">
       <a class="navbar-brand" href="https://pixabay.com/hu/images/search/sakkb%c3%a1bu/" target="_blank"> <img
           class="d-inline-block align-top" src="sakkbabu.jpg" alt="sakkbabu" style="width: 40px;">
@@ -35,84 +35,188 @@
       </div>
   </nav>
   <!--lapozható képek és története és egyéb dolgok-->
+  <!-- Carousel -->
   <br>
   <p class="h2 border border-secondary rounded-pill mx-auto"
-        style="width: 400px; margin: 20px; padding: 15px; text-align: center;;">Ki találta fel a sakkot?</p>
-    <br>
-    <p class="text-center text-bg-light ">Ki találta ki a sakkot?
-        A sakk története sok évre, évtizedre, sőt évszázadokra nyúlik vissza! De ki találta ki azt a játékot, amelyet
-        mindannyian szeretünk? Mi volt ennek a híres mentális gyakorlatnak az eredete, amelyet sok millió ember játszik?
+      style=" width: 400px; margin: 20px; padding: 15px; text-align: center; font-family: serif; font-size: 40px;">Ki
+      találta fel a sakkot?</p>
+  <br>
 
-        A sakk világszerte ismert, számos rajongó játszik benne, de gyökerei és eredete nem világos és vitatható.
-        Különféle legendák, történetek és egyszerű találgatások léteznek, kezdve a vitától, hogy honnan származik, és
-        egészen a sakk kezdetéig.</p>
-    <br>
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <p class="text-center text-bg-light rounded-pill  "
+      style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 20px;margin-right: 20px; padding: 10px; font-size: 20px ">
+      A sakk története sok évre, évtizedre, sőt évszázadokra nyúlik vissza! De ki találta ki azt a játékot, amelyet
+      mindannyian szeretünk? Mi volt ennek a híres mentális gyakorlatnak az eredete, amelyet sok millió ember játszik?
+      A sakk világszerte ismert, számos rajongó játszik benne, de gyökerei és eredete nem világos és vitatható.
+      Különféle legendák, történetek és egyszerű találgatások léteznek, kezdve a vitától, hogy honnan származik, és
+      egészen a sakk kezdetéig.</p>
 
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <br>
+  <div class="gorgetheto">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              </div>
+              <!-- The slideshow/carousel -->
+              <div class="carousel-inner ">
+                  <div class="carousel-item active ">
+                      <img src="sakk1.jpg" alt="Sakkabout1" class="mx-auto d-block w-100 img-c " id="sakkabout"
+                          style="height: 800px; width: auto;">
+                  </div>
+                  <div class="carousel-item ">
+                      <img src="sakk4.png" alt="Sakkabout2" class="d-block mx-auto  w-100 img-fluid " id="sakkabout"
+                          style="height: 800px; width: auto;">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="sakk3.jpg" alt="Sakkabout3" class="d-block mx-auto  w-100 img-fluid " id="sakkabout"
+                          style="height:  800px; width: auto;">
+                  </div>
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+  </div>
 
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            </div>
+  <p class="text-center text-bg-light rounded-4 "
+      style=" width:auto;height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 30px;margin-right: 30px; padding: 15px; font-size: 20px;">
+      Egy ősi legenda, amelyet sok gyermek még megtalálhat <a
+          href="https://tudasbazis.sulinet.hu/hu/matematika/matematika/nincs-kiralyi-ut/a-hindu-matematika/arjabhatta-brahmagupta"
+          target="_blank" style="text-decoration: double underline rgb(75, 126, 235);">matematikai könyveik</a>
+      a zsarnok indiai királyról, Shahramról és egy bölcs emberről szólnak a királyságában. A bölcs ember meg
+      akarta győzni Sihrámot az országának minden lakójának fontosságáról.
 
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="sakk1.jpg" alt="Sakkabout1" class="d-block w-100" id="sakkabout">
-                </div>
-                <div class="carousel-item">
-                    <img src="sakk2.jpg" alt="Sakkabout2" class="d-block w-100" id="sakkabout">
-                </div>
-                <div class="carousel-item">
-                    <img src="sakk3.jpg" alt="Sakkabout3" class="d-block w-100" id="sakkabout">
-                </div>
-            </div>
+      Tehát kitalált egy játékot, amely a királyságot képviseli magában a királyból, királynőjéből, rookokból,
+      püspökökből, lovagokból és gyalogok, amelyek mind fontosak voltak.
 
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-        <br>
-        <p class="text-center text-bg-light "> Egy ősi legenda, amelyet sok gyermek még megtalálhat matematikai könyveik
-            a zsarnok indiai királyról, Shahramról és egy bölcs emberről szólnak a királyságában. A bölcs ember meg
-            akarta győzni Sihrámot az országának minden lakójának fontosságáról.
+      A királynak nagyon tetszett a játék, és megértette, hogy a játék olyan, mint a való élet. Szóval a
+      királyságában mindenkit sakkozni parancsolt! Sahram felajánlotta az embernek az összes aranyat és ezüstöt,
+      amit csak akart, de a bölcs nem akart kincset.
 
-            Tehát kitalált egy játékot, amely a királyságot képviseli magában a királyból, királynőjéből, rookokból,
-            püspökökből, lovagokból és gyalogok, amelyek mind fontosak voltak.
+      A királlyal együtt sakktáblához ment, és megkérte, hogy tegyen egy szem búzát. az első téren kettőt a
+      másodikon, és folyamatosan duplázzuk, amíg a sakktábla meg nem telik.
 
-            A királynak nagyon tetszett a játék, és megértette, hogy a játék olyan, mint a való élet. Szóval a
-            királyságában mindenkit sakkozni parancsolt! Sahram felajánlotta az embernek az összes aranyat és ezüstöt,
-            amit csak akart, de a bölcs nem akart kincset.
+      Először is a király nagyon sértettnek érezte magát, de aztán megparancsolta szolgáinak, hogy teljesítsék a
+      férfi kívánságát. A szolgák kétségbeesetten közölték, hogy ekkora mennyiségű búza nem létezik!
 
-            A királlyal együtt sakktáblához ment, és megkérte, hogy tegyen egy szem búzát. az első téren kettőt a
-            másodikon, és folyamatosan duplázzuk, amíg a sakktábla meg nem telik.
+      A király megértette, hogy a bölcs második leckét adott neki. Csakúgy, mint a sakkban lévő gyalogokat, soha
+      nem szabad lebecsülni az élet apróságait!
 
-            Először is a király nagyon sértettnek érezte magát, de aztán megparancsolta szolgáinak, hogy teljesítsék a
-            férfi kívánságát. A szolgák kétségbeesetten közölték, hogy ekkora mennyiségű búza nem létezik!
+      Ez az egyik legnépszerűbb legenda a sakk történetéről. De az biztos, hogy még sok más van …</p>
+  <br>
+  <p class="h2 border border-secondary rounded-pill mx-auto"
+      style=" width: 600px; margin: 20px; padding: 15px; text-align: center; font-family: serif; font-size: 40px;"> Mi
+      is a sakk történelme? </p>
+  <br>
 
-            A király megértette, hogy a bölcs második leckét adott neki. Csakúgy, mint a sakkban lévő gyalogokat, soha
-            nem szabad lebecsülni az élet apróságait!
+  <br>
+  <div class="container" style="margin-top: 60px;">
+      <div class="row">
+          <div class="col">
+              <p class="text-center text-bg-light rounded-4 keretesi "
+                  style=" width:auto;height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 80px; padding: 15px; font-size: 20px; text-align: center  ;">
+                  A sakk története a legendák világába nyúlik vissza. Az első ismert sakkváltozat valószínűleg
+                  Indiában alakult
+                  ki, a <b>csaturanga</b> (chaturanga) nevű játék , amely a modern sakkhoz képest leegyszerűsített
+                  volt.
+                  Európába a sakk
+                  arab közvetítéssel jutott, és közben olyan változtatásokat alkalmaztak, ami elvezetett a mai modern
+                  sakkig.</p>
+              <hr>
+          </div>
+          <div class="col rétegek">
+              <img src="chaturanga.avif " class="float-end img-thumbnail img-fluid réteg" alt="Chaturanga"
+                  style="width: 300px;margin-right:80px; text-align: center;">
+          </div>
+      </div>
+  </div>
+  <div class="container" style="margin-top: 60px;">
+      <div class="row">
+          <div class="col rétegek">
+              <img src="vikingsakk.jpg" alt="Vikingsakk" class=" float-end img-thumbnail img-fluid réteg"
+                  style="width: 250px;margin-right:80px; text-align: center;">
 
-            Ez az egyik legnépszerűbb legenda a sakk történetéről. De az biztos, hogy még sok más van …</p>
-    
+          </div>
+          <div class="col">
+              <p class="text-center text-bg-light rounded-4 keretesi"
+                  style=" width:auto;height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 80px; padding: 15px; font-size: 20px; text-align: center;">
+                  Európában olyan játékokat szorított ki, mint a <b>viking sakk</b>. A másik irányba a fejlődési
+                  útvonal
+                  kevésbé követhető. A legvalószínűbb elképzelés szerint Indiából Kínába, majd Japánba vitték át a
+                  játékot, és közben jóval nagyobb változásokat szenvedett, mint a nyugat felé tartó útja során.</p>
+              <hr>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col" style="margin-top: 80px;">
+              <p class="text-center text-bg-light rounded-4 keretesi "
+                  style=" width:auto;height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 80px; padding: 15px; font-size: 20px; text-align: center  ;">
+                  A <b>kínai sakk</b> táblamérete is más, a bábuk is különböznek, és a lépésekben is más szabályok
+                  vannak.</p>
+              <hr>
+
+          </div>
+          <div class="col rétegek">
+              <img src="kínaisakktábla.jpg" alt="Kínaisakktábla" class=" float-end img-thumbnail img-fluid réteg"
+                  style="width: 250px;margin-right:80px; text-align: center;">
+
+          </div>
+      </div>
+  </div>
+  <div class="container" style="margin-top: 60px;">
+      <div class="row">
+          <div class="col rétegek">
+              <img src="Shogigame.jpg" alt="Vikingsakk" class=" float-end img-thumbnail img-fluid réteg"
+                  style="width: 250px;margin-right:80px; text-align: center;">
+
+          </div>
+          <div class="col">
+              <p class="text-center text-bg-light rounded-4 keretesi "
+                  style=" width:auto;height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 80px; padding: 15px; font-size: 20px; text-align: center;">
+                  A <b>japán shogi sakk</b> pedig olyan, a játék jellegét alapvetően felforgató elemeket tartalmaz,
+                  mint a levett
+                  bábuk visszatétele. Egy kevésbé elfogadott hipotézis szerint esetleg a kínai volt az eredeti
+                  változat.A sakkot akkor is megnyerheti a játékos ha a soron következö játékos nem tud lépni.</p>
+              <hr style="margin-bottom: 90px;">
+          </div>
+      </div>
+  </div>
+  <br>
+<br>
+  <div class="nyil">
+     
+          <buttom class="btn btn-outline-light text-dark"><a href="#teteje" class="text-center nyil">&#8593</a></buttom>
+      
+  </div>
   
-  
-
-
-
-
-
-
-
-
+<footer class="footer">
+  <div>
+      <div>
+          <img src="feketefeherkockak.jpg" alt="kockak" class="float-start" style=" height: 250px; width: 200px;">
+            <img src="feketefeherkockak.jpg" alt="kockak" class="float-end"style=" height: 250px; width: 200px;" >
+      </div>
+ 
+  <p class="text-center h2" style="font-family: monospace;margin-bottom: 50px;"><i>További oldalak</i></p>
+  <ul class="pagination justify-content-center " style="margin:20px 0" >
+      <li class="page-item active"><a class="page-link  text-light" href="index.html">Kezdőlap</a></li>
+      <li class="page-item "><a class="page-link  text-light" href="szabalyok.html">Szabályok</a></li>
+      <li class="page-item"><a class="page-link  text-light" href="hiressegek.html">Hírességek</a></li>
+      <li class="page-item"><a class="page-link   text-light" href="rolunk.html">Rólunk</a></li>
+      
+    </ul></div>
+    <br>
+</footer>
 
 
 </body>
