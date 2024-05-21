@@ -2,3 +2,69 @@ body {
     background-color: rgb(41, 39, 39);
     color: white;
 }
+/*Címsorok*/
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/*Fekete cuccok*/
+.fekete{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.feketelink{
+    color: black;
+    font-size: 20pt;
+}
+
+.fektevonal{
+    color: black
+}
+
+/*Fehér cuccok*/
+.feher{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.feherlink{
+    color: white;
+    font-size: 20pt;
+}
+
+.fehervonal{
+    color: white
+}
+ 
+/*P*/
+p{
+    text-align: center;
+}
+
+/*Konténer*/
+.container{
+    margin-bottom: 25px;
+ }
+
+ /*Kép keret*/
+.img-thumbnail{
+    background-color: #964d22;
+}
+
+/*Vonal*/
+
+
+.vonal2{
+    color: black
+}
