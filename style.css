@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+/*Ivett*/
+
+.gorgetheto{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 900px;
+ }
+ .rétegek{
+     display: inline-block;
+     overflow: hidden; /* Az esetleges túlcsordulás elrejtése */
+ }
+ .réteg{
+     display: block;
+     width: 100%;
+     transition: transform 0.3s ease; /* Animáció beállítása */
+ 
+ }
+ .réteg:hover {
+     transform: scale(1.1); /* Kép nagyítása 10%-kal */}
+ 
+ 
+ .keretesi{
+     padding: 10px; /* Térköz a szöveg és a keret között */
+     transition: border ease; /* Animáció beállítása */
+ }
+ .keretesi:hover {
+     border: 9px  black double ;  /* Fekete keret a szöveg körül */
+ }
+ .footer{
+     background-color: black;
+     padding: 70px 0;
+     margin-top: 60px;
+     height: 338px;
+   
+ 
+ }
+ .page-link{
+     background-color: black;
+ }
+ .nyil{
+     font-size: 30px;
+     color:rgb(255, 255, 255);
+     display: flex;
+     justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   
+ 
+ }
+ .page-item:active{
+     background-color: beige;
+ }
+
+/*Márk*/
+
+ .sor {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.figura {
+    width: 33%;
+    text-align: justify;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+.kozep {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+img {
+    width: 15%;
+}
+
+.margo {
+    margin-left: 1%;
+}
+
+.kepbal{
+    margin-left: 35%;
+}
+
+/* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
+
+body {
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+/*Címsorok*/
+
+/*Dávod*/
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/*Fekete cuccok*/
+.fekete{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.feketelink{
+    color: black;
+    font-size: 20pt;
+}
+
+.fektevonal{
+    color: black
+}
+
+/*Fehér cuccok*/
+.feher{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.feherlink{
+    color: white;
+    font-size: 20pt;
+}
+
+.fehervonal{
+    color: white
+}
+ 
+/*P*/
+p{
+    text-align: center;
+}
+
+/*Konténer*/
+.container{
+    margin-bottom: 25px;
+ }
+
+ /*Kép keret*/
+.img-thumbnail{
+    background-color: #964d22;
+}
+
+/*Vonal*/
+
+
+.vonal2{
+    color: black
+}
