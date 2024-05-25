@@ -41,22 +41,45 @@ body {
    
  
  }
- .page-link{
-     background-color: black;
- }
  .nyil{
-     font-size: 30px;
-     color:rgb(255, 255, 255);
-     display: flex;
-     justify-content: center;
-   align-items: center;
-   margin-bottom: 20px;
-   
+    font-size: 35px;
  
- }
- .page-item:active{
-     background-color: beige;
- }
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+
+}
+
+.page-item.active .page-link {
+    background-color: white !important;
+    color: black !important;
+ 
+}
+
+.page-item.active .page-link:hover {
+    background-color: white !important;
+    color: black !important;
+    border-color: black !important;
+}
+
+.page-link {
+    color: black !important;
+}
+
+.page-link:hover {
+   
+    font-size: 20px;
+    font-family:fantasy;
+}
+.page-link.active{
+    text-decoration: underline dotted 3px;
+    font-family: cursive;
+    font-weight: 120px;
+}
+
+ 
 
 /*Márk*/
 
