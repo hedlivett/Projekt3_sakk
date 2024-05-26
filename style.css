@@ -80,8 +80,6 @@ body {
 }
 .nav-link:hover {
     color: rgb(255, 255, 255) !important; /* Állítsd be az aktív elem színét pirosra */
-}
-.nav-link:hover{
     background-color: rgb(0, 0, 0);
 }
  
@@ -189,11 +187,14 @@ p{
 }
 /*Egybe a rólunk oldal*/
 
-.egybe{
-    background-color: rgb(255, 254, 254);
-}
 
 .card{
     background-color: rgb(93, 92, 92);
     color: white;
+    border: solid 3px rgb(255, 255, 255);
+    padding: 60px;
+    margin: 0;
+}
+a.github:hover {
+    color: white; /* Hover állapotban fehér szín */
 }
