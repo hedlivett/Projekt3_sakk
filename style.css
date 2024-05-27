@@ -2,60 +2,74 @@ body {
     background-color: rgb(41, 39, 39);
     color: white;
 }
+
 /*Ivett*/
 
-.gorgetheto{
+.gorgetheto {
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     height: 900px;
- }
- .rétegek{
-     display: inline-block;
-     overflow: hidden; /* Az esetleges túlcsordulás elrejtése */
- }
- .réteg{
-     display: block;
-     width: 100%;
-     transition: transform 0.3s ease; /* Animáció beállítása */
- 
- }
- .réteg:hover {
-     transform: scale(1.1); /* Kép nagyítása 10%-kal */}
- 
- 
- .keretesi{
-     padding: 10px; /* Térköz a szöveg és a keret között */
-     transition: border ease; /* Animáció beállítása */
- }
- .keretesi:hover {
-     border: 9px  black double ;  /* Fekete keret a szöveg körül */
- }
- .footer{
-     background-color: black;
-     padding: 70px 0;
-     margin-top: 60px;
-     height: 338px;
-   
- 
- }
- .nyil{
+}
+
+.rétegek {
+    display: inline-block;
+    overflow: hidden;
+    /* Az esetleges túlcsordulás elrejtése */
+}
+
+.réteg {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease;
+    /* Animáció beállítása */
+
+}
+
+.réteg:hover {
+    transform: scale(1.1);
+    /* Kép nagyítása 10%-kal */
+}
+
+
+.keretesi {
+    padding: 10px;
+    /* Térköz a szöveg és a keret között */
+    transition: border ease;
+    /* Animáció beállítása */
+}
+
+.keretesi:hover {
+    border: 9px black double;
+    /* Fekete keret a szöveg körül */
+}
+
+.footer {
+    background-color: black;
+    padding: 70px 0;
+    margin-top: 60px;
+    height: 338px;
+
+
+}
+
+.nyil {
     font-size: 35px;
- 
+
     display: flex;
     justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  
+    align-items: center;
+    margin-bottom: 20px;
+
 
 }
 
 .page-item.active .page-link {
     background-color: white !important;
     color: black !important;
- 
+
 }
 
 .page-item.active .page-link:hover {
@@ -69,21 +83,24 @@ body {
 }
 
 .page-link:hover {
-   
+
     font-size: 20px;
-    font-family:fantasy;
+    font-family: fantasy;
 }
-.page-link.active{
+
+.page-link.active {
     text-decoration: underline dotted 3px;
     font-family: cursive;
     font-weight: 120px;
 }
+
 .nav-link:hover {
-    color: rgb(255, 255, 255) !important; /* Állítsd be az aktív elem színét pirosra */
+    color: rgb(255, 255, 255) !important;
+    /* Állítsd be az aktív elem színét pirosra */
     background-color: rgb(0, 0, 0);
 }
- 
-.nav-link.active{
+
+.nav-link.active {
     font-family: cursive;
     font-style: italic;
 
@@ -91,7 +108,7 @@ body {
 
 /*Márk*/
 
- .sor {
+.sor {
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
@@ -111,11 +128,11 @@ body {
     text-align: center;
 }
 
-.kepbal{
+.kepbal {
     margin-left: 35%;
 }
 
-.container-fluid.type1{
+.container-fluid.type1 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 10px;
@@ -123,7 +140,7 @@ body {
     justify-items: center;
 }
 
-.container-fluid.type1> div {
+.container-fluid.type1>div {
     width: 100%;
     box-sizing: border-box;
 }
@@ -133,81 +150,84 @@ body {
 /*Címsorok*/
 
 /*Dávid*/
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
 /*Fekete cuccok*/
-.fekete{
+.fekete {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.feketelink{
+.feketelink {
     color: black;
     font-size: 20pt;
 }
 
-.fektevonal{
+.fektevonal {
     color: black
 }
 
 /*Fehér cuccok*/
-.feher{
+.feher {
     background-color: white;
     color: black;
     text-align: center;
 }
 
-.feherlink{
+.feherlink {
     color: white;
     font-size: 20pt;
 }
 
-.fehervonal{
+.fehervonal {
     color: white
 }
- 
+
 /*P*/
-p{
+p {
     text-align: center;
 }
 
 /*Konténer*/
-.container{
+.container {
     margin-bottom: 25px;
- }
+}
 
- /*Kép keret*/
-.img-thumbnail{
+/*Kép keret*/
+.img-thumbnail {
     background-color: #964d22;
 }
 
 /*Vonal*/
 
 
-.vonal2{
+.vonal2 {
     color: black
 }
+
 /*Egybe a rólunk oldal*/
 
 
-.card{
+.card {
     background-color: rgb(93, 92, 92);
     color: white;
     border: solid 3px rgb(255, 255, 255);
     padding: 60px;
     margin: 0;
 }
+
 a.github:hover {
-    color: white; /* Hover állapotban fehér szín */
+    color: white;
+    /* Hover állapotban fehér szín */
 }
