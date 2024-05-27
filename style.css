@@ -115,6 +115,19 @@ body {
     margin-left: 35%;
 }
 
+.container-fluid.type1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-fluid.type1> div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* Probáljuk tartani a sötét háttér fehér betűt, ha lehetséges */
 
 /*Címsorok*/
