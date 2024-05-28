@@ -201,7 +201,7 @@ p {
 
 /*Konténer*/
 .container {
-    margin-bottom: 25px;
+    margin-bottom: 0.625rempx;
 }
 
 /*Kép keret*/
